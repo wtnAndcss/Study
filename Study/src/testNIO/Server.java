@@ -11,6 +11,11 @@ import java.util.Set;
 
 public class Server {
 
+    public static void main(String[] args) throws IOException {
+        Server server = new Server();
+        server.start();
+    }
+
     //启动服务器方法
     public void start() throws IOException {
         //（1）创建Selector---抛IOException
@@ -32,6 +37,8 @@ public class Server {
             //获取可用channel的数量
             int readyChannels = selector.select();
 
+            // 为什么要判断可用channel数量？---防止空轮询
+            // 即使判断了，但是select方法仍在执行，还是会一直占用CPU资源
             if (readyChannels == 0) continue;
 
             //（6）调用selectedKeys()方法获取就绪channel集合
@@ -103,15 +110,29 @@ public class Server {
 
         // 将客户端发送的请求信息广播给其他客户端
         if (request.length() > 0) {
-            System.out.println("-------"+request);
+            broadCast(selector, socketChannel, request);
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        Server server = new Server();
-        server.start();
+    /**
+     * 广播给其他客户端
+     */
+    private void broadCast(Selector selector, SocketChannel socketChannel, String request) {
+
+        // 获取所有已接入的客户端
+        Set<SelectionKey> keys = selector.keys();
+        //循环向所有channel广播信息
+        keys.forEach(selectionKey -> {
+            Channel targetChannel = selectionKey.channel();
+
+            //剔除发信息的channel，将信息发送给其他channel客户端
+            if (targetChannel instanceof SocketChannel && targetChannel != socketChannel) {
+                try {
+                    ((SocketChannel) targetChannel).write(Charset.forName("utf-8").encode(request));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
-
-
-
 }
