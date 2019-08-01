@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * 计算
  */
-public class Test2_Calculation {
+public class Test2_calculation {
 
     /**
      * 一、
@@ -17,7 +17,7 @@ public class Test2_Calculation {
      */
 
     public static void main(String[] args) throws ParseException {
-        Test2_Calculation test2 = new Test2_Calculation();
+        Test2_calculation test2 = new Test2_calculation();
         test2.calculation1();
     }
 

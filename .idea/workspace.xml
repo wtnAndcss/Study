@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d531e8ce-d71f-4d1c-a702-c1b2d68ad41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/src/testNIO/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/Test3_singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/Test3_singletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/src/testNIO/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Study/src/testNIO/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/src/test/Test2_Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Study/src/test/Test2_calculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/src/testNIO/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Study/src/testNIO/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,36 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Study/src/testNIO/Client.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/src/test/Test3_singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/src/testNIO/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2882">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Study/src/testNIO/ClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/Study/src/test/Test3_singletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <state relative-caret-position="660">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,6 +64,8 @@
         <option value="$PROJECT_DIR$/Study/src/testNIO/Client.java" />
         <option value="$PROJECT_DIR$/Study/src/testNIO/ClientHandler.java" />
         <option value="$PROJECT_DIR$/Study/src/testNIO/Server.java" />
+        <option value="$PROJECT_DIR$/Study/src/test/Test3_singletonTest.java" />
+        <option value="$PROJECT_DIR$/Study/src/test/Test3_singleton.java" />
       </list>
     </option>
   </component>
@@ -114,7 +106,7 @@
               <item name="Study" type="462c0819:PsiDirectoryNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testNIO" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Test3_singletonTest">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testNIO.Client" />
       <module name="Study" />
@@ -174,12 +166,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test3_singletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test3_singletonTest" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Test3_singletonTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3_singletonTest" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
@@ -195,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564550873439</updated>
       <workItem from="1564550876151" duration="615000" />
-      <workItem from="1564552092548" duration="10625000" />
+      <workItem from="1564552092548" duration="17011000" />
     </task>
     <task id="LOCAL-00001" summary="处理项目无法编译问题">
       <created>1564555757126</created>
@@ -204,11 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564555757126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="根据NIO模型实现多人聊天室">
+      <created>1564625355751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564625355751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11240000" />
+    <option name="totallyTimeSpent" value="17626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,7 +236,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35497236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16420911" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -287,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="处理项目无法编译问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="处理项目无法编译问题" />
+    <MESSAGE value="根据NIO模型实现多人聊天室" />
+    <option name="LAST_COMMIT_MESSAGE" value="根据NIO模型实现多人聊天室" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Study/src/test/Test1_arraySort.java">
@@ -297,9 +312,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Study/src/testNIO/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="67" column="89" selection-start-line="67" selection-start-column="89" selection-end-line="67" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/src/testNIO/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="26">
           <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -309,7 +331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/src/testNIO/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="224">
           <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -319,10 +341,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/src/testNIO/Server.java">
+    <entry file="file://$PROJECT_DIR$/Study/src/test/Test3_singletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="660">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/src/test/Test3_singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

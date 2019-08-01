@@ -60,16 +60,12 @@ public class Server {
                 }
             }
         }
-
-
-        //（8）根据业务需要决定是否再次注册监听事件，重复执行第（3）步操作
     }
 
     /**
      * 接入事件处理器
      */
-    private void acceptHandler(ServerSocketChannel serverSocketChannel, Selector selector
-    ) throws IOException {
+    private void acceptHandler(ServerSocketChannel serverSocketChannel, Selector selector) throws IOException {
 
         //创建SocketChannel
         SocketChannel socketChannel = serverSocketChannel.accept();
