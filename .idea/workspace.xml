@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d531e8ce-d71f-4d1c-a702-c1b2d68ad41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrtor1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/src/test/train/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/src/test/train/TestStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/train/TrainString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Study/src/testRecusion/testIO_copy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Study/src/test/train/Student.java">
+        <entry file="file://$PROJECT_DIR$/Study/src/test/train/TrainString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+            <state relative-caret-position="440">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,8 +35,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/src/test/train/TestStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="59">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/src/test/train/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +82,10 @@
         <option value="$PROJECT_DIR$/Study/src/test/Test3_singletonTest.java" />
         <option value="$PROJECT_DIR$/Study/src/test/Test3_singleton.java" />
         <option value="$PROJECT_DIR$/Study/src/test/train/train.java" />
+        <option value="$PROJECT_DIR$/Study/src/test/train/String.java" />
         <option value="$PROJECT_DIR$/Study/src/test/train/Student.java" />
         <option value="$PROJECT_DIR$/Study/src/test/train/TestStudent.java" />
+        <option value="$PROJECT_DIR$/Study/src/test/train/TrainString.java" />
       </list>
     </option>
   </component>
@@ -171,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStudent">
+  <component name="RunManager" selected="Application.TrainString">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testNIO.Client" />
       <module name="Study" />
@@ -224,14 +225,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.train.TrainString" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Test3_singletonTest" />
       <item itemvalue="Application.TestStudent" />
+      <item itemvalue="Application.TrainString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrainString" />
         <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.Test3_singletonTest" />
         <item itemvalue="Application.Server" />
@@ -249,7 +265,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564550873439</updated>
       <workItem from="1564550876151" duration="615000" />
-      <workItem from="1564552092548" duration="26112000" />
+      <workItem from="1564552092548" duration="27252000" />
     </task>
     <task id="LOCAL-00001" summary="处理项目无法编译问题">
       <created>1564555757126</created>
@@ -272,11 +288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564636420637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HashSet去重案例">
+      <created>1564720824595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564720824596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26727000" />
+    <option name="totallyTimeSpent" value="27867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,9 +312,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.10656837" />
-      <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" visible="true" weight="0.10656837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.17895442" />
+      <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.17895442" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -302,16 +326,16 @@
       <window_info anchor="bottom" id="JRebel Executor" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2082153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2082153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40114614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295129" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.2082153" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930844" weight="0.20113315" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.30028328" />
       <window_info anchor="bottom" id="JRebel Console" order="12" show_stripe_button="false" sideWeight="0.5006916" side_tool="true" weight="0.3323782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,7 +381,8 @@
     <MESSAGE value="处理项目无法编译问题" />
     <MESSAGE value="根据NIO模型实现多人聊天室" />
     <MESSAGE value="单例模式--解决反射和反序列化安全问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式--解决反射和反序列化安全问题" />
+    <MESSAGE value="HashSet去重案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashSet去重案例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Study/src/test/Test1_arraySort.java">
@@ -483,16 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/src/test/train/TestStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -502,8 +517,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/src/test/train/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        <state relative-caret-position="440">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/src/test/train/TestStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="369" lean-forward="true" selection-start-line="369" selection-end-line="369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/src/test/train/TrainString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
