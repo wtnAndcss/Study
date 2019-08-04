@@ -1,10 +1,7 @@
 package test.train;
 
-import lombok.Data;
-
 import java.util.Objects;
 
-@Data
 public class Student {
 
     private String name;
@@ -14,6 +11,10 @@ public class Student {
 
         this.name = name;
         this.age = age;
+    }
+
+    public String getName() {
+        return this.name;
     }
 
     /**

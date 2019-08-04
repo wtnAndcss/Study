@@ -8,7 +8,7 @@ import java.util.Set;
  * 遍历集合的时候再控制台输Student对象的成员变量值。
  * Student的name和age相同视为1人，即存储的集合中不能有重复的Student对象
  */
-public class TestStudent {
+public class TestStudent_set {
 
     public static void main(String[] args) {
 
@@ -34,6 +34,7 @@ public class TestStudent {
         // student4.equals(student5) --已重写equals方法      true：只比较2个对象的值
 
         System.out.println(student4.equals(student5));
+        System.out.println(student1.getName());
     }
 
     /**

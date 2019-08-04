@@ -4,6 +4,8 @@
       <root url="jar://D:/training/工具/架包/lombok.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://D:/training/工具/架包/lombok.jar!/" />
+    </SOURCES>
   </library>
 </component>
