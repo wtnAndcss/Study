@@ -1,8 +1,9 @@
 package testThread;
 
-import java.nio.channels.SelectionKey;
 import java.util.HashMap;
 import java.util.Map;
+
+import static java.lang.Thread.*;
 
 //实现自己的ThreadLocal
 public class ThreadLocal2<T> {

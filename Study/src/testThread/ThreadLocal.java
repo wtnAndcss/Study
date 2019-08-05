@@ -1,5 +1,7 @@
 package testThread;
 
+import testThread.AtomicTest.ExtendsThread;
+
 //测试本类中多线程之间共享同一个变量
 public class ThreadLocal {
 
@@ -23,7 +25,7 @@ public class ThreadLocal {
         }
     }
 
-    static class ThreadB extends Thread {
+    static class ThreadB extends ExtendsThread {
 
 
         public void b() {
